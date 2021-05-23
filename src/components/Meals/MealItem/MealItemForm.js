@@ -14,7 +14,7 @@ const MealItemForm = props => {
   };
   return (
     <form className={styles.form}>
-      <Input label={props.label} input={inputProps} />
+      <Input label="Amount" input={inputProps} />
       <button>+ Add</button>
     </form>
   );
